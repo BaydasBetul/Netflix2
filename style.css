@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+}
+
+.header {
+    background-image: url(img/background_image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    overflow:auto;
+    z-index: 1;
+}
+
+#container {
+    color: white;
+    margin: 30px 80px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    }
+
+#title {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+#description {
+    font-size: 30px;
+    position: relative;
+}
+
+#survey-form {
+    display: inline-block;
+    text-align: left;
+    overflow: auto;
+
+}
+
+.box {
+    width: 500px;
+    padding: 20px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+label {
+    display: inline-block;
+    
+    text-align: left;
+}
+
+#senden {
+    padding: 10px 15px;
+    border: 1px solid red;
+    background-color: red;
+    margin-left: 40%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color:#fff;;
+}
+#senden:hover {
+    border: 2px solid darkred;
+    background-color: darkred;
+}
+.form-control {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    float: left;
+}
